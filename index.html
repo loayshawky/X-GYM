@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Gym Website </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="./css_file/all.min.css">
+  <link rel="stylesheet" href="./css_file/normalize.css">
+  <link rel="stylesheet" href="./css_file/aos.css">
+  <link rel="stylesheet" href="./css_file/style.css">
+
+
+</head>
+<body class="t-img-gray">
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader_box">
+    <img src="./img/img/logo.png" alt="img" class="preloader_img logo">
+    <div class="preloader_dot"></div>
+  </div>
+  <div class="preloader_slide js-preloader-slide"></div>
+  </div>
+  <!-- preloader end -->
+  <!-- page wrapper start -->
+  <div class="page-wrapper">
+    <!-- header start  -->
+    <header class="header">
+      <div class="header_container container">
+        <a href="#" class="header_logo-link" data-aos="fade-down">
+          <img src="./img/img/logo.png" alt="logo for website" class="header_logo logo">
+        </a>
+        <button type="button" class="header_toggler js-header-toggler"data-aos="fade-down">
+          <span class="header_toggler-text" data-text="close">menu</span>
+        </button>
+        <nav class="header_nav js-header-nav">
+          <ul class="header_list">
+            <li class="header_item">
+              <a href="#home" class="header_link">home</a>
+              <span class="header_line line"></span>
+            </li>
+            <li class="header_item">
+              <a href="#about" class="header_link">about</a>
+              <span class="header_line line"></span>
+            </li>
+            <li class="header_item">
+              <a href="#services" class="header_link">services</a>
+              <span class="header_line line"></span>
+            </li>
+            <li class="header_item">
+              <a href="#pricing" class="header_link">pricing</a>
+              <span class="header_line line"></span>
+            </li>
+            <li class="header_item">
+              <a href="#team" class="header_link">team</a>
+              <span class="header_line line"></span>
+            </li>
+            <li class="header_item">
+              <a href="#contact" class="header_link">contact</a>
+              <span class="header_line line"></span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header end  -->
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="home_container container">
+        <div class="home_back">
+          <div class="home_img-box">
+            <img src="./img/img/home-img.jpg" alt="img">
+            <div class="img-cover"data-aos="slide-right"></div>
+            <div class="img-cover"data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+          </div>
+        </div>
+        <div class="home_front container">
+          <h1 class="home_title-wrap">
+            <span class="home_title" data-aos="fade">no pain</span>
+            <span class="home_title" data-aos="fade" data-aos-delay="500" data-aos-offset="0" >no gain</span>
+          </h1>
+          <div class="home_btn-wrap" data-aos="fade-up" data-aos-offset="0">
+            <a href="#about" class="btn btn-2">about us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- home section end -->
+    <!-- about section start  -->
+    <section class="about" id="about">
+      <div class="about_container container">
+        <div class="about_section-header section-header section-header--center">
+        <h2 class="section-header_title">welcome to x-gym</h2>
+        </div>
+        <div class="about_img-box"> 
+          <img src="./img/img/about-img.jpg" class="about_img" alt="about us">
+          <div class="img-cover" data-aos="slide-right"></div>
+          <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+          <div class="about_play-btn-wrap">
+            <button class="about_play-btn js-about-play-btn" data-aos="zoom-in">
+              <i class="fa fa-play"></i>
+            </button>
+          </div>
+        </div>
+          <div class="about_text">
+            <p data-aos="fade">Lorem ipsum dolor sit, amet consectetur adipis
+              icing elit. Cum voluptates amet, quisquam pos
+              simus unde iste expedita optio repellat dicta
+               illum deleniti quibusdam quia delectus rem, quam distinctio magni. Obcaecati blanditiis eveniet, earum amet dolorem consectetur. Rem voluptatem sapiente amet repellendus deleniti eum? Quia ipsa 
+              ipsam facilis sunt necessitatibus minus hic!</p>
+              <p data-aos="fade">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit libero alias ad mollitia maiores. Itaque eum vitae velit, repellendus, quidem dolores accusamus tempora quisquam veniam iusto ratione illum consequatur earum!
+              </p>
+
+          </div>
+          <div class="about_avatar">
+            <div class="about_avatar-img-box"> 
+              <img src="./img/img/owner.jpg" alt="img" class="about_avatar-img">
+            </div>
+            <div class="about_avatar-text">
+              <h3 class="about_avatar-name">loay Shawky</h3>
+              <div class="about_avatar-posirion">gym owner</div>
+            </div>
+          </div>
+      
+      </div>
+    </section>
+    <!-- about section end  -->
+
+    <!-- services section start -->
+    <section class="services" id="services">
+      <div class="services_container container">
+        <div class="services_section-header section-header section-header--center">
+          <h2 class="section-header_title">classes we provide</h2>
+        </div>
+        <div class="services_accordion accordion js-accordion">
+          <!-- accordion item start -->
+          <div class="accordion_item">
+            <div class="accordion_header" data-aos="fade" >
+              <button type="button" class="accordion_btn js-accordion-btn" data-aos="fade">
+                <span class="accordion_title">weight lifting</span>
+                <span class="accordion_icon"><i class="fa fa-arrow-right-long"></i></span>
+              </button>
+            </div>
+            <div class="accordion_body">
+              <div class="accordion_body-inner">
+                <div class="accordion_content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum earum ipsa, aperiam quisquam minus magni quibusdam illum soluta optio ex temporibus aliquid animi doloremque magnam, iusto odit ducimus iste veritatis suscipit nulla in labore facere vel. Assumenda accusantium maiores fuga!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem sequi repellendus doloribus ducimus neque blanditiis quaerat qui inventore veniam modi repudiandae atque reprehenderit illo maxime nemo, incidunt ipsa doloremque.</p>
+                </div>
+                <div class="accordion_img-box">
+                  <img src="./img/img/service/1.jpg" alt="services" class="accordion_img">
+                  <div class="img-cover"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- accordion item end -->
+          <!-- accordion item start -->
+          <div class="accordion_item">
+            <div class="accordion_header">
+              <button type="button" class="accordion_btn js-accordion-btn" data-aos="fade">
+                <span class="accordion_title">aerobics</span>
+                <span class="accordion_icon"><i class="fa fa-arrow-right-long"></i></span>
+              </button>
+            </div>
+            <div class="accordion_body">
+              <div class="accordion_body-inner">
+                <div class="accordion_content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum earum ipsa, aperiam quisquam minus magni quibusdam illum soluta optio ex temporibus aliquid animi doloremque magnam, iusto odit ducimus iste veritatis suscipit nulla in labore facere vel. Assumenda accusantium maiores fuga!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem sequi repellendus doloribus ducimus neque blanditiis quaerat qui inventore veniam modi repudiandae atque reprehenderit illo maxime nemo, incidunt ipsa doloremque.</p>
+                </div>
+                <div class="accordion_img-box">
+                  <img src="./img/img/service/2.jpg" alt="services" class="accordion_img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- accordion item end -->
+          <!-- accordion item start -->
+          <div class="accordion_item">
+            <div class="accordion_header">
+              <button type="button" class="accordion_btn js-accordion-btn" data-aos="fade">
+                <span class="accordion_title">cardio</span>
+                <span class="accordion_icon"><i class="fa fa-arrow-right-long"></i></span>
+              </button>
+            </div>
+            <div class="accordion_body">
+              <div class="accordion_body-inner">
+                <div class="accordion_content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum earum ipsa, aperiam quisquam minus magni quibusdam illum soluta optio ex temporibus aliquid animi doloremque magnam, iusto odit ducimus iste veritatis suscipit nulla in labore facere vel. Assumenda accusantium maiores fuga!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem sequi repellendus doloribus ducimus neque blanditiis quaerat qui inventore veniam modi repudiandae atque reprehenderit illo maxime nemo, incidunt ipsa doloremque.</p>
+                </div>
+                <div class="accordion_img-box">
+                  <img src="./img/img/service/3.jpg" alt="services" class="accordion_img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- accordion item end -->
+          <!-- accordion item start -->
+          <div class="accordion_item">
+            <div class="accordion_header">
+              <button type="button" class="accordion_btn js-accordion-btn" data-aos="fade">
+                <span class="accordion_title">poxing punch</span>
+                <span class="accordion_icon"><i class="fa fa-arrow-right-long"></i></span>
+              </button>
+            </div>
+            <div class="accordion_body">
+              <div class="accordion_body-inner">
+                <div class="accordion_content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum earum ipsa, aperiam quisquam minus magni quibusdam illum soluta optio ex temporibus aliquid animi doloremque magnam, iusto odit ducimus iste veritatis suscipit nulla in labore facere vel. Assumenda accusantium maiores fuga!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem sequi repellendus doloribus ducimus neque blanditiis quaerat qui inventore veniam modi repudiandae atque reprehenderit illo maxime nemo, incidunt ipsa doloremque.</p>
+                </div>
+                <div class="accordion_img-box">
+                  <img src="./img/img/service/4.jpg" alt="services" class="accordion_img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- accordion item end -->
+          <!-- accordion item start -->
+          <div class="accordion_item">
+            <div class="accordion_header">
+              <button type="button" class="accordion_btn js-accordion-btn" data-aos="fade">
+                <span class="accordion_title">zomba  class</span>
+                <span class="accordion_icon"><i class="fa fa-arrow-right-long"></i></span>
+              </button>
+            </div>
+            <div class="accordion_body">
+              <div class="accordion_body-inner">
+                <div class="accordion_content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum earum ipsa, aperiam quisquam minus magni quibusdam illum soluta optio ex temporibus aliquid animi doloremque magnam, iusto odit ducimus iste veritatis suscipit nulla in labore facere vel. Assumenda accusantium maiores fuga!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem sequi repellendus doloribus ducimus neque blanditiis quaerat qui inventore veniam modi repudiandae atque reprehenderit illo maxime nemo, incidunt ipsa doloremque.</p>
+                </div>
+                <div class="accordion_img-box">
+                  <img src="./img/img/service/6.jpg" alt="services" class="accordion_img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- accordion item end -->
+          <!-- accordion item start -->
+          <div class="accordion_item">
+            <div class="accordion_header">
+              <button type="button" class="accordion_btn js-accordion-btn" data-aos="fade">
+                <span class="accordion_title">power yoga</span>
+                <span class="accordion_icon"><i class="fa fa-arrow-right-long"></i></span>
+              </button>
+            </div>
+            <div class="accordion_body">
+              <div class="accordion_body-inner">
+                <div class="accordion_content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum earum ipsa, aperiam quisquam minus magni quibusdam illum soluta optio ex temporibus aliquid animi doloremque magnam, iusto odit ducimus iste veritatis suscipit nulla in labore facere vel. Assumenda accusantium maiores fuga!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem sequi repellendus doloribus ducimus neque blanditiis quaerat qui inventore veniam modi repudiandae atque reprehenderit illo maxime nemo, incidunt ipsa doloremque.</p>
+                </div>
+                <div class="accordion_img-box">
+                  <img src="./img/img/service/5.jpg" alt="services" class="accordion_img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- accordion item end -->
+        </div>
+      </div>
+    </section>
+    <!-- services section end -->
+    <section class="pricing" id="pricing">
+      <div class="pricing_container container">
+        <div class="pricing_section-header section-header section-header--center">
+          <h2 class="section_header_title" data-aos="fade-up">our pricing plans</h2>
+        </div>
+        <div class="pricing_cards">
+          <div class="pricing_card" data-aos="fade">
+            <div class="pricing_header">
+              <h3 class="pricing_title" data-aos="fade">basic</h3>
+            </div>
+            <div class="pricing_body">
+              <ul class="pricing_list">
+                <li class="pricing_list-item" data-aos="fade">
+                <i class="fa fa-check"></i>
+                <span>unlimited equipment</span>
+              </li>
+                <li class="pricing_list-item" data-aos="fade">
+                <i class="fa fa-check"></i>
+                <span>diet chart</span>
+              </li>
+                <li class="pricing_list-item"data-aos="fade">
+                <i class="fa fa-times"></i>
+                <span>weight loss</span>
+              </li>
+                <li class="pricing_list-item"data-aos="fade">
+                <i class="fa fa-times"></i>
+                <span>personal trainer</span>
+              </li>
+              </ul>
+            </div>
+            <div class="pricin_footer">
+              <div class="pricing_price-wrap" data-aos="fade">
+                <div class="pricing_price">$199</div>
+                <div class="pricing_seccion">/ monthly</div>
+              </div>
+              <div class="pricing_btn-wrap" data-aos="fade">
+                <a href="#" class="btn btn-2">join now</a>
+              </div>
+            </div>
+          </div>
+          <div class="pricing_card" data-aos="fade">
+            <div class="pricing_header">
+              <h3 class="pricing_title">standard</h3>
+            </div>
+            <div class="pricing_body">
+              <ul class="pricing_list">
+                <li class="pricing_list-item"data-aos="fade">
+                <i class="fa fa-check"></i>
+                <span>unlimited equipment</span>
+              </li>
+                <li class="pricing_list-item"data-aos="fade">
+                <i class="fa fa-check"></i>
+                <span>diet chart</span>
+              </li>
+                <li class="pricing_list-item"data-aos="fade">
+                <i class="fa fa-times"></i>
+                <span>weight loss</span>
+              </li>
+                <li class="pricing_list-item"data-aos="fade">
+                <i class="fa fa-times"></i>
+                <span>personal trainer</span>
+              </li>
+              </ul>
+            </div>
+            <div class="pricin_footer">
+              <div class="pricing_price-wrap"data-aos="fade">
+                <div class="pricing_price">$499</div>
+                <div class="pricing_seccion">/ monthly</div>
+              </div>
+              <div class="pricing_btn-wrap"data-aos="fade">
+                <a href="#" class="btn btn--2">join now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- trainer section start -->
+    <section class="team" id="team">
+      <div class="triner_container container">
+        <div class="trainer_section-header section-header section-header--center" >
+          <h2 class="section-header_title" data-aos="fade-up">meet our expert trainer</h2>
+          </div>
+          <div class="trainer_items">
+            <!-- trainer item start -->
+            <div class="trainer_item">
+              <div class="trainer_img-box">
+                <img src="./img/img/team/1.jpg" alt="img" class="trainer-img">
+                <div class="img-cover" data-aos="slide-right"></div>
+                <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+              </div>
+              <div class="trainer_text">
+                <h3 class="trainer_name"data-aos="fade-up">mostafa elsharkawy</h3>
+                <div class="trainer_position"data-aos="fade-up">fitness trainer</div>
+              </div>
+              <div class="trainer_social social social--vertical">
+                <a href="#" class="social_link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <!-- trainer item start -->
+            <div class="trainer_item">
+              <div class="trainer_img-box">
+                <img src="./img/img/team/2.jpg" alt="img" class="trainer-img">
+                <div class="img-cover" data-aos="slide-right"></div>
+                <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+              </div>
+              <div class="trainer_text">
+                <h3 class="trainer_name"data-aos="fade-up">naglaa elsharkawy</h3>
+                <div class="trainer_position"data-aos="fade-up">fitness trainer</div>
+              </div>
+              <div class="trainer_social social social--vertical">
+                <a href="#" class="social_link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <!-- trainer item start -->
+            <div class="trainer_item">
+              <div class="trainer_img-box">
+                <img src="./img/img/team/3.jpg" alt="img" class="trainer-img">
+                <div class="img-cover" data-aos="slide-right"></div>
+                <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+              </div>
+              <div class="trainer_text">
+                <h3 class="trainer_name"data-aos="fade-up">mahmoud elsharkawy</h3>
+                <div class="trainer_position"data-aos="fade-up">fitness trainer</div>
+              </div>
+              <div class="trainer_social social social--vertical">
+                <a href="#" class="social_link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <!-- trainer item start -->
+            <div class="trainer_item">
+              <div class="trainer_img-box">
+                <img src="./img/img/team/4.jpg" alt="img" class="trainer-img">
+                <div class="img-cover" data-aos="slide-right"></div>
+                <div class="img-cover" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="1000"></div>
+              </div>
+              <div class="trainer_text">
+                <h3 class="trainer_name" data-aos="fade-up">sally elsharkawy</h3>
+                <div class="trainer_position"data-aos="fade-up">fitness trainer</div>
+              </div>
+              <div class="trainer_social social social--vertical">
+                <a href="#" class="social_link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social_link"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- trainer section end -->
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+      <div class="contact_container container">
+        <div class="contact_section-header section-header">
+          <h2 class="section-header_title">contact us</h2>
+          </div>
+          <div class="contact-us" >
+            <div class="left">
+             <div class="items">
+              <div class="item"data-aos="fade-up">
+                <div class="text">reach us</div>
+                <p class="text-p">egypt- mansoura-elmashaya</p>
+              </div>
+              <div class="item"data-aos="fade-up">
+                <div class="text">call us</div>
+                <p class="text-p">01063649711</p>
+              </div>
+              <div class="item"data-aos="fade-up">
+                <div class="text">email us</div>
+                <p class="text-p">loays537@gmail.com</p>
+              </div>
+             </div>
+            </div>
+            <div class="right">
+              <form action="" class="contact-form" data-aos="fade-down">
+                <input type="text" placeholder="name">
+                <input type="mail" placeholder="email">
+                <input type="tel" name="phone" placeholder="phone">
+                <textarea name="message" id="" cols="30" rows="10" class="message">message</textarea>
+              </form>
+              <div class="home_btn-wrap">
+                <a href="#about" class="btn btn-1">about us</a>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+    <!-- footer section start -->
+    <footer class="footer">
+      <div class="footer_line line " data-aos="fade"></div>
+      <div class="footer_container container" >
+        <div class="footer_item"  data-aos="fade">
+          <h3 class="footer_title">opening hours</h3>
+         <div class="footer_timing">
+          <span>mon to fri:</span> <span>7:300 am - 1:00 am</span> <br>
+          <span>sat :</span> <span>7:300 am - 1:00 am</span> <br>
+          <span>sunday closed</span>
+         </div>
+
+        </div>
+        <div class="footer_item"  data-aos="fade">
+          <h3 class="footer_title">follow us</h3>
+          <div class="footer_social social ">
+            <a href="#" class="social_link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social_link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social_link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social_link"><i class="fab fa-youtube"></i></a>
+          </div>
+
+        </div>
+        <div class="footer_item"  data-aos="fade">
+          <h3 class="footer_title">newsletter</h3>
+          <div class="footer_newsletter newsletter">
+            <div class="newsletter_title">get the latest news, tips and latest message, include special offers</div>
+            <form  class="newsletter_form">
+              <input type="text" class="newsletter_input" required placeholder="Email">
+              <button type="submit" class="newsletter_btn"><i class="fa fa-arrow-right-long"></i> </button>
+            </form>
+          </div>
+          
+
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+  </div>
+  <!-- page wrapper end  -->
+  <!-- video popup start -->
+  <div class="video-popup js-video-popup" >
+    <div class="video-popup_inner">
+      <button class="video-popup_close js-video-popup-close" type="button">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="video-popup_iframe-box">
+        <iframe class="video-popup_iframe js-video-popup-iframe" src="./Learn CSS In Arabic 2021 - _23 - Typography - Font Family(720P_HD).mp4" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </div>
+  <!-- video popup end -->
+<script src="./js/js/aos.js"></script>
+<script src="./js/js/script.js"></script>
+</body>
+</html>
